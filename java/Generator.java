@@ -17,16 +17,6 @@ public class Generator {
     private static List<String> listSourceData  = new ArrayList<>();
     private static Document document            = new Document();
 
-//    public static void main(String[] args){
-//
-//        parseXmlFile("copy.xml");
-//        initListSourceData("source-data.tsv");
-//        initDocumentColumns(document);
-//        initDocumentPageWidthAndHeight(document);
-//        writeFile("test.tsv", getDocString());
-//
-//    }
-
     public static void main(String[] args){
 
         parseXmlFile(args[0]);
